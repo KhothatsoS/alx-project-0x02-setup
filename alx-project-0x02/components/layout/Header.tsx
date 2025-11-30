@@ -28,6 +28,9 @@ const Header = () => {
                 <Link href="/about" className="text-gray-700 hover:text-black">
                     About
                 </Link>
+                <Link href="/posts" className="text-gray-700 hover:text-black">
+                    Posts
+                </Link>
 
                 {/* Search bar */}
                 <div className="flex-1 mx-10">
