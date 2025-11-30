@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const accommodationTypes = [
     "Rooms",
@@ -17,6 +18,16 @@ const Header = () => {
                 <h1 className="text-2xl font-bold text-blue-600 cursor-pointer">
                     StayFinder
                 </h1>
+
+            {/* Navigation */}
+               <nav className="flex items-center gap-6">
+                <Link href="/home" className="text-gray-700 hover:text-black">
+                    Home
+                </Link>
+
+                <Link href="/about" className="text-gray-700 hover:text-black">
+                    About
+                </Link>
 
                 {/* Search bar */}
                 <div className="flex-1 mx-10">
