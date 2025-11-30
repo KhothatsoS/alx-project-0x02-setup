@@ -17,6 +17,10 @@ const HomePage = () => {
         title="User Tips"
         content="Discover useful tips that help you get the most out of your experience."
       />
+
+      <Header />
+      <Component {HomePage} />
+    </>
     </div>
   );
 };
