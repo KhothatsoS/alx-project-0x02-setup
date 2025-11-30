@@ -1,4 +1,5 @@
 import import React from "react";
+import CardProps from "@/interfaces";
 
 interface CardProps {
     title: string;
